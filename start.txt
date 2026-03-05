@@ -1,0 +1,148 @@
+📡 GPS location
+
+🗺️ Google Maps / OpenStreetMap landmarks
+
+🧠 OpenAI for natural storytelling + Q&A
+
+🎧 Text-to-speech for audio tours
+
+📷 Camera input (“What am I looking at?”)
+
+
+possible namses below: Based on Oryx + AI / Buddy
+
+#OryxAI
+#OryxBuddy
+#GoldenOryxAI
+#OryxGo   : but i think this
+
+     
+
+Mobile App / Car App
+        |
+        v
+ FastAPI Backend
+ ├── Location Service (GPS)
+ ├── Map / Landmark Service (OpenStreetMap)
+ ├── Story Engine (AI or fallback)
+ ├── Audio Guide Engine (TTS)
+ ├── Vision Engine (Camera → AI)
+ └── Session Memory (User tour context)
+
+
+goldenoryxai/
+├── app/
+│   ├── main.py
+│   ├── api/
+│   │   ├── tour.py
+│   │   ├── vision.py
+│   ├── services/
+│   │   ├── location_service.py
+│   │   ├── landmark_service.py
+│   │   ├── story_service.py
+│   │   ├── tts_service.py
+│   │   └── vision_service.py
+│   ├── schemas/
+│   │   ├── tour.py
+│   │   └── vision.py
+│   └── core/
+│       └── config.py
+├── requirements.txt
+└── README.md
+
+
+
+🎧 streaming narration while driving
+
+📍 continuous GPS tracking
+
+🗣️ multilingual (Afrikaans, Oshiwambo, German)
+
+🧠 memory (“you passed here earlier”)
+
+📱 mobile app integration
+
+🗺️ route-based storytelling
+
+
+
+#uvicorn app.main:app --reload
+#source venv/Scripts/activate
+#python scripts/render_tour_graph.py
+
+
+
+
+
+Common landmarks to test: 
+
+Christuskirche
+
+Lat: -22.5609
+
+Lon: 17.0658
+
+ Independence Memorial Museum
+
+Lat: -22.5614
+
+Lon: 17.0667
+
+ Tintenpalast
+
+Lat: -22.5611
+
+Lon: 17.0660
+
+ Swakopmund
+ Swakopmund Jetty
+
+Lat: -22.6795
+
+Lon: 14.5270
+
+ Swakopmund Lighthouse
+
+Lat: -22.6784
+
+Lon: 14.5266
+
+ Sossusvlei Area
+ Dune 45
+
+Lat: -24.7293
+
+Lon: 15.3028
+
+ Deadvlei
+
+Lat: -24.7700
+
+Lon: 15.3100
+
+ Etosha National Park
+ Okaukuejo Camp
+
+Lat: -19.1775
+
+Lon: 15.9122
+
+ Halali Camp
+
+Lat: -19.0410
+
+Lon: 16.4550
+
+ Spitzkoppe
+ Spitzkoppe
+
+Lat: -21.8333
+
+Lon: 15.1833
+
+ Lüderitz
+ Kolmanskop
+
+Lat: -26.7033
+
+Lon: 15.2283
